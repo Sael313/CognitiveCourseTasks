@@ -1,0 +1,105 @@
+(venv) abolfazlnaseri@partadmin:~/CognitiveCourseTasks/T1/T1.2$ python describe_tables.py
+
+==================== Schema for: posthog.events ====================
+Column: uuid                           | Type: UUID
+Column: event                          | Type: String
+Column: properties                     | Type: String
+Column: timestamp                      | Type: DateTime64(6, 'UTC')
+Column: team_id                        | Type: Int64
+Column: distinct_id                    | Type: String
+Column: elements_chain                 | Type: String
+Column: created_at                     | Type: DateTime64(6, 'UTC')
+Column: person_id                      | Type: UUID
+Column: person_created_at              | Type: DateTime64(3)
+Column: person_properties              | Type: String
+Column: group0_properties              | Type: String
+Column: group1_properties              | Type: String
+Column: group2_properties              | Type: String
+Column: group3_properties              | Type: String
+Column: group4_properties              | Type: String
+Column: group0_created_at              | Type: DateTime64(3)
+Column: group1_created_at              | Type: DateTime64(3)
+Column: group2_created_at              | Type: DateTime64(3)
+Column: group3_created_at              | Type: DateTime64(3)
+Column: group4_created_at              | Type: DateTime64(3)
+Column: person_mode                    | Type: Enum8('full' = 0, 'propertyless' = 1, 'force_upgrade' = 2)
+Column: historical_migration           | Type: Bool
+Column: dmat_string_0                  | Type: Nullable(String)
+Column: dmat_string_1                  | Type: Nullable(String)
+Column: dmat_string_2                  | Type: Nullable(String)
+Column: dmat_string_3                  | Type: Nullable(String)
+Column: dmat_string_4                  | Type: Nullable(String)
+Column: dmat_string_5                  | Type: Nullable(String)
+Column: dmat_string_6                  | Type: Nullable(String)
+Column: dmat_string_7                  | Type: Nullable(String)
+Column: dmat_string_8                  | Type: Nullable(String)
+Column: dmat_string_9                  | Type: Nullable(String)
+Column: $group_0                       | Type: String
+Column: $group_1                       | Type: String
+Column: $group_2                       | Type: String
+Column: $group_3                       | Type: String
+Column: $group_4                       | Type: String
+Column: $window_id                     | Type: String
+Column: $session_id                    | Type: String
+Column: $session_id_uuid               | Type: Nullable(UInt128)
+Column: elements_chain_href            | Type: String
+Column: elements_chain_texts           | Type: Array(String)
+Column: elements_chain_ids             | Type: Array(String)
+Column: elements_chain_elements        | Type: Array(Enum8('a' = 1, 'button' = 2, 'form' = 3, 'input' = 4, 'select' = 5, 'textarea' = 6, 'label' = 7))
+Column: properties_group_custom        | Type: Map(String, String)
+Column: properties_group_ai            | Type: Map(String, String)
+Column: properties_group_feature_flags | Type: Map(String, String)
+Column: person_properties_map_custom   | Type: Map(String, String)
+Column: _timestamp                     | Type: DateTime
+Column: _offset                        | Type: UInt64
+Column: inserted_at                    | Type: Nullable(DateTime64(6, 'UTC'))
+Column: consumer_breadcrumbs           | Type: Array(String)
+Column: is_deleted                     | Type: Bool
+Column: mat_$ai_trace_id               | Type: Nullable(String)
+Column: mat_$ai_session_id             | Type: Nullable(String)
+Column: mat_$ai_is_error               | Type: Nullable(String)
+Column: mat_$ai_prompt_name            | Type: Nullable(String)
+Column: mat_$ai_experiment_id          | Type: Nullable(String)
+
+==================== Schema for: posthog.person ====================
+Column: id                             | Type: UUID
+Column: created_at                     | Type: DateTime64(3)
+Column: team_id                        | Type: Int64
+Column: properties                     | Type: String
+Column: is_identified                  | Type: Int8
+Column: is_deleted                     | Type: Int8
+Column: version                        | Type: UInt64
+Column: last_seen_at                   | Type: Nullable(DateTime64(3))
+Column: _timestamp                     | Type: DateTime
+Column: _offset                        | Type: UInt64
+
+==================== Schema for: posthog.session_replay_events ====================
+Column: session_id                     | Type: String
+Column: team_id                        | Type: Int64
+Column: distinct_id                    | Type: String
+Column: min_first_timestamp            | Type: SimpleAggregateFunction(min, DateTime64(6, 'UTC'))
+Column: max_last_timestamp             | Type: SimpleAggregateFunction(max, DateTime64(6, 'UTC'))
+Column: block_first_timestamps         | Type: SimpleAggregateFunction(groupArrayArray, Array(DateTime64(6, 'UTC')))
+Column: block_last_timestamps          | Type: SimpleAggregateFunction(groupArrayArray, Array(DateTime64(6, 'UTC')))
+Column: block_urls                     | Type: SimpleAggregateFunction(groupArrayArray, Array(String))
+Column: first_url                      | Type: AggregateFunction(argMin, Nullable(String), DateTime64(6, 'UTC'))
+Column: all_urls                       | Type: SimpleAggregateFunction(groupUniqArrayArray, Array(String))
+Column: click_count                    | Type: SimpleAggregateFunction(sum, Int64)
+Column: keypress_count                 | Type: SimpleAggregateFunction(sum, Int64)
+Column: mouse_activity_count           | Type: SimpleAggregateFunction(sum, Int64)
+Column: active_milliseconds            | Type: SimpleAggregateFunction(sum, Int64)
+Column: console_log_count              | Type: SimpleAggregateFunction(sum, Int64)
+Column: console_warn_count             | Type: SimpleAggregateFunction(sum, Int64)
+Column: console_error_count            | Type: SimpleAggregateFunction(sum, Int64)
+Column: size                           | Type: SimpleAggregateFunction(sum, Int64)
+Column: message_count                  | Type: SimpleAggregateFunction(sum, Int64)
+Column: event_count                    | Type: SimpleAggregateFunction(sum, Int64)
+Column: snapshot_source                | Type: AggregateFunction(argMin, LowCardinality(Nullable(String)), DateTime64(6, 'UTC'))
+Column: snapshot_library               | Type: AggregateFunction(argMin, Nullable(String), DateTime64(6, 'UTC'))
+Column: _timestamp                     | Type: SimpleAggregateFunction(max, DateTime)
+Column: is_deleted                     | Type: SimpleAggregateFunction(max, UInt8)
+Column: ai_tags_fixed                  | Type: SimpleAggregateFunction(groupUniqArrayArray, Array(String))
+Column: ai_tags_freeform               | Type: SimpleAggregateFunction(groupUniqArrayArray, Array(String))
+Column: ai_highlighted                 | Type: SimpleAggregateFunction(max, UInt8)
+Column: surfacing_score                | Type: SimpleAggregateFunction(max, Nullable(Float32))
+Column: retention_period_days          | Type: SimpleAggregateFunction(max, Nullable(Int64))
