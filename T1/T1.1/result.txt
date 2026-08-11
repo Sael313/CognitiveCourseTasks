@@ -1,108 +1,110 @@
-(venv) abolfazlnaseri@partadmin:~/CognitiveCourseTasks/T1/T1.1$ python connect_clickhouse.py
-در حال اتصال به ClickHouse لوکال...
-اتصال موفقیت‌آمیز بود!
+-----------------------This file includes the result of tasl T1.1------------------------
 
-در حال اجرای کوئری...
-تعداد ردیف‌های دریافت شده: 100
 
-نمونه 100 ردیف اول:
---------------------------------------------------
-Event: $feature_flag_called | User: user_8 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_8 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_8 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_8 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_8 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_8 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_8 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_8 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_8 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_8 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_8 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_8 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_3 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_3 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_3 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_3 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_3 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_3 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_3 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_3 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_3 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_3 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_3 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $feature_flag_called | User: user_3 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_5 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_5 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_5 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_5 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_5 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_5 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_5 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_5 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_5 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_5 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_5 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_5 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_0 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_0 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_0 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_0 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_0 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_0 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_0 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_0 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_0 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_0 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_0 | Timestamp: 2026-08-09 07:59:54.506826
-Event: $pageview | User: user_0 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_6 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_6 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_6 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_6 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_6 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_6 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_6 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_6 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_6 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_6 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_6 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_6 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_1 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_1 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_1 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_1 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_1 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_1 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_1 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_1 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_1 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_1 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_1 | Timestamp: 2026-08-09 07:59:54.506826
-Event: click | User: user_1 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_9 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_9 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_9 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_9 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_9 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_9 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_9 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_9 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_9 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_9 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_9 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_9 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_4 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_4 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_4 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_4 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_4 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_4 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_4 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_4 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_4 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_4 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_4 | Timestamp: 2026-08-09 07:59:54.506826
-Event: decision_made | User: user_4 | Timestamp: 2026-08-09 07:59:54.506826
-Event: submit | User: user_7 | Timestamp: 2026-08-09 07:59:54.506826
-Event: submit | User: user_7 | Timestamp: 2026-08-09 07:59:54.506826
-Event: submit | User: user_7 | Timestamp: 2026-08-09 07:59:54.506826
+
+(venv) abolfazlnaseri@partadmin:~/CognitiveCourseTasks/T1/T1.1$ python3 clickhouse-connect.py 
+✅ اتصال برقرار شد. نسخه ClickHouse: 26.6.1.1193
+
+✅ کوئری با موفقیت اجرا شد. تعداد ردیف‌های دریافتی: 100
+
+--- نمونه 100 ردیف اول ---
+('$pageleave', datetime.datetime(2026, 8, 11, 5, 30, 55, 30000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-66b2-752e-9762-a9caaf13c849'))
+('$pageview', datetime.datetime(2026, 8, 11, 5, 30, 53, 123000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-5f32-7fa9-b9be-2d92c6500900'))
+('$set', datetime.datetime(2026, 8, 11, 5, 30, 53, 84000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-5f19-7f8f-85cf-ca53c6279e6d'))
+('$pageleave', datetime.datetime(2026, 8, 11, 5, 30, 53, 10000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-5ec6-7769-aecc-072500cf4e90'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 30, 52, 955000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-5e8f-7d36-9618-659c3a8d9fd6'))
+('$pageview', datetime.datetime(2026, 8, 11, 5, 30, 50, 434000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-54b1-7b3d-941e-3344f2533aa5'))
+('$set', datetime.datetime(2026, 8, 11, 5, 30, 50, 423000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-549e-7d1a-9cc2-5df68c087204'))
+('$pageleave', datetime.datetime(2026, 8, 11, 5, 30, 50, 377000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-5485-789a-8d3f-cbc1ab317dfc'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 30, 50, 357000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-5471-7ce7-a752-e692a4ea6324'))
+('$pageview', datetime.datetime(2026, 8, 11, 5, 30, 49, 570000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-514c-7d18-8621-88e7d2e67906'))
+('$set', datetime.datetime(2026, 8, 11, 5, 30, 49, 533000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-5139-7c78-bde6-2f1d08cb37ec'))
+('$pageleave', datetime.datetime(2026, 8, 11, 5, 30, 49, 515000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-511b-70e1-aeda-992f903cfa7e'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 30, 49, 484000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-50fc-7a1f-9dcb-466420a0d118'))
+('contact_form_submitted', datetime.datetime(2026, 8, 11, 5, 30, 47, 814000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-4a76-753d-b912-ea2be29d4165'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 30, 47, 812000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-4a74-7857-9ea0-4e175b7cd582'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 30, 47, 806000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-4a6e-7535-8b24-bc68ceb1300e'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 30, 47, 724000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-4a1c-718f-befb-050653ceff80'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 30, 42, 645000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-3642-7399-8ed2-66554f37b82b'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 30, 42, 578000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-35ff-70b4-83d5-da9fd2041a2c'))
+('$web_vitals', datetime.datetime(2026, 8, 11, 5, 30, 34, 934000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-182c-7721-b385-53804fd71536'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 30, 34, 702000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-1744-759a-a0d9-de65d0f4f2dc'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 30, 34, 580000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-16ca-7450-afaa-31fdbb89ac4d'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 30, 31, 93000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-091a-7574-82a0-2369fc13974f'))
+('$pageview', datetime.datetime(2026, 8, 11, 5, 30, 29, 879000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-0466-724b-a086-7e80a9b9219e'))
+('$set', datetime.datetime(2026, 8, 11, 5, 30, 29, 878000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-045a-7b88-bcf0-e5bb2b731881'))
+('$pageleave', datetime.datetime(2026, 8, 11, 5, 30, 29, 820000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-0434-7905-8a2b-cbb9a6f19cfb'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 30, 29, 802000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-0422-7701-b71a-dfa20587e5ab'))
+('$web_vitals', datetime.datetime(2026, 8, 11, 5, 30, 29, 483000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4d-02e3-7fb5-89c2-f170da01a6fe'))
+('$pageview', datetime.datetime(2026, 8, 11, 5, 30, 24, 437000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4c-ef28-7660-9fa4-34506d054c81'))
+('$set', datetime.datetime(2026, 8, 11, 5, 30, 24, 423000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4c-ef11-7be5-aa38-cbbdc30bb110'))
+('$pageleave', datetime.datetime(2026, 8, 11, 5, 30, 24, 378000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4c-eef6-7803-8740-de614fc1eaea'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 30, 24, 367000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4c-eeeb-7e7c-ac99-c5abf9ce0cb3'))
+('$pageview', datetime.datetime(2026, 8, 11, 5, 30, 22, 6000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4c-e5a8-7428-93da-b3ccf53071fb'))
+('$set', datetime.datetime(2026, 8, 11, 5, 30, 21, 967000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4c-e58c-7c9a-a570-215a76c7a657'))
+('$pageleave', datetime.datetime(2026, 8, 11, 5, 30, 13, 914000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4c-c5d3-7323-9b1e-088a4ae78154'))
+('$set', datetime.datetime(2026, 8, 11, 5, 30, 10, 866000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4c-b9cf-7a6e-8c9b-5c2015a32abd'))
+('$pageview', datetime.datetime(2026, 8, 11, 5, 30, 10, 799000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4c-b9eb-7c4c-b2d8-f8cff83f35b3'))
+('$pageleave', datetime.datetime(2026, 8, 11, 5, 30, 10, 728000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4c-b99f-7fb0-82ce-6f337c9b89e6'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 30, 10, 706000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4c-b989-72a0-a07e-298a61bd7aa9'))
+('contact_form_submitted', datetime.datetime(2026, 8, 11, 5, 30, 8, 792000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4c-b216-7c11-9905-014377eebf50'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 30, 8, 791000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4c-b215-7033-aedb-67242b6e47de'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 30, 8, 789000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4c-b213-75aa-91f1-0a2d8227ff79'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 30, 8, 699000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4c-b1b9-703a-8fb4-ab1976fd8e81'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 29, 36, 490000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4c-33e4-72b3-8822-945a6d4796c1'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 29, 36, 418000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4c-339c-7896-9aaf-04b8826ef808'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 29, 12, 882000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4b-d7ae-721b-ba6e-67e4a5e72e93'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 29, 12, 792000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4b-d754-7e14-b5e9-9477d03a11e6'))
+('$web_vitals', datetime.datetime(2026, 8, 11, 5, 29, 6, 624000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4b-bf3e-7d43-b2ee-67d19b3b3e84'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 29, 2, 371000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4b-ae96-7b21-bbfe-477cc836ee9d'))
+('$pageview', datetime.datetime(2026, 8, 11, 5, 29, 1, 653000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4b-abcf-79d4-89fc-783d0f6f2495'))
+('$set', datetime.datetime(2026, 8, 11, 5, 29, 1, 624000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4b-abab-7190-aa9c-f1fe47cf785a'))
+('$pageleave', datetime.datetime(2026, 8, 11, 5, 29, 1, 531000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4b-ab54-7894-8512-4279b4f6b6c3'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 29, 1, 492000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4b-ab2d-7576-a36d-efbfbc767adf'))
+('$pageview', datetime.datetime(2026, 8, 11, 5, 28, 56, 756000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4b-989d-79b0-90ae-42f6f8401fa7'))
+('$set', datetime.datetime(2026, 8, 11, 5, 28, 56, 669000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef4b-9844-708c-aa60-bc45c607b5ab'))
+('$pageleave', datetime.datetime(2026, 8, 11, 5, 28, 43, 65000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4b-6321-70ae-a714-a0c311a0adeb'))
+('$web_vitals', datetime.datetime(2026, 8, 11, 5, 28, 21, 558000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4b-0f30-7551-a323-53e632addbd9'))
+('$pageview', datetime.datetime(2026, 8, 11, 5, 28, 16, 373000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4a-fae6-78dc-bf3c-191d0c323c9b'))
+('$set', datetime.datetime(2026, 8, 11, 5, 28, 16, 365000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4a-fad4-738a-b332-e886f50d618d'))
+('$pageleave', datetime.datetime(2026, 8, 11, 5, 28, 16, 319000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4a-fab9-7fb6-906a-a5fee246c284'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 28, 16, 278000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4a-fa90-7cd6-be58-9df71ac38460'))
+('$web_vitals', datetime.datetime(2026, 8, 11, 5, 28, 6, 195000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4a-d322-7b98-8951-b0e7da4bbfe8'))
+('$pageview', datetime.datetime(2026, 8, 11, 5, 28, 1, 140000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4a-bf66-77d7-abee-27a6781f4f75'))
+('$set', datetime.datetime(2026, 8, 11, 5, 28, 1, 117000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4a-bf50-74e4-afd1-f3b57d509bc0'))
+('$pageleave', datetime.datetime(2026, 8, 11, 5, 28, 1, 76000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4a-bf29-758e-aa16-4673fa7135b7'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 28, 1, 7000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4a-bee4-79a7-962b-ca9fdb466524'))
+('$pageview', datetime.datetime(2026, 8, 11, 5, 27, 57, 844000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4a-b285-7667-85b8-a6550ce0e6f3'))
+('$set', datetime.datetime(2026, 8, 11, 5, 27, 57, 839000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4a-b276-7cad-b000-81492b0c3711'))
+('$pageleave', datetime.datetime(2026, 8, 11, 5, 27, 57, 778000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4a-b248-7c70-a3a9-188ea4015adc'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 27, 57, 748000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4a-b22a-7ea8-951c-43b8d987474b'))
+('$pageview', datetime.datetime(2026, 8, 11, 5, 27, 56, 278000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4a-ac5d-7261-86c3-f6544135198f'))
+('$set', datetime.datetime(2026, 8, 11, 5, 27, 56, 246000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4a-ac4b-7b72-9b21-90349f9ae1ac'))
+('$pageleave', datetime.datetime(2026, 8, 11, 5, 27, 49, 473000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4a-91d9-703c-a5d9-70ab39311b8b'))
+('$web_vitals', datetime.datetime(2026, 8, 11, 5, 27, 33, 465000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4a-5347-70c7-bfa5-34963fd61e88'))
+('$pageview', datetime.datetime(2026, 8, 11, 5, 27, 28, 399000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4a-3f77-7cf2-bb6c-25aed6bff68a'))
+('$set', datetime.datetime(2026, 8, 11, 5, 27, 28, 338000), '019fef47-f800-7850-b1c4-0e8d4a15980a', UUID('019fef4a-3f4b-7a3c-bc0b-2aa1f8aaa2fc'))
+('$pageleave', datetime.datetime(2026, 8, 11, 5, 27, 5, 40000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef49-e413-7579-b7da-d3715e6b2b2b'))
+('$set', datetime.datetime(2026, 8, 11, 5, 27, 2, 275000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef49-d928-7aa0-85a5-898b6f2e7480'))
+('$pageview', datetime.datetime(2026, 8, 11, 5, 27, 2, 215000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef49-d941-7ad1-93c5-1b18650f78de'))
+('$pageleave', datetime.datetime(2026, 8, 11, 5, 27, 2, 145000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef49-d8f5-74c1-bd7b-936261815ef4'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 27, 2, 132000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef49-d8e8-7dd3-85e7-966925379f28'))
+('$pageview', datetime.datetime(2026, 8, 11, 5, 26, 57, 492000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef49-c6cd-7117-b316-90869046bf27'))
+('$set', datetime.datetime(2026, 8, 11, 5, 26, 57, 482000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef49-c6c0-7f93-8cd6-c23e30034d5f'))
+('$pageleave', datetime.datetime(2026, 8, 11, 5, 26, 57, 407000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef49-c678-7b42-8e37-0109309f4029'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 26, 57, 379000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef49-c65c-723f-94db-f08803fb849c'))
+('contact_form_submitted', datetime.datetime(2026, 8, 11, 5, 26, 54, 945000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef49-bcdb-7312-9741-db27f856e19b'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 26, 54, 944000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef49-bcda-7c4e-b888-e167d64bb0c7'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 26, 54, 942000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef49-bcd8-76b5-9932-06d859f52001'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 26, 54, 889000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef49-bca3-725d-a0e1-9d84f0089905'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 26, 53, 103000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef49-b5a9-77e6-af8b-0a4e26581a9b'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 26, 49, 346000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef49-a6fb-7a39-9f6f-9dd26bf48d89'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 26, 49, 253000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef49-a69e-7dd2-9027-15c58c679cb8'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 26, 15, 379000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef49-2249-77bf-b0e6-371c2730c34e'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 26, 15, 280000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef49-21e6-7b7d-ba70-08c4952f500f'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 25, 56, 921000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef48-da37-7dc4-a972-cc9f2ba27f16'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 25, 56, 854000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef48-d9f4-7855-9bcd-9b220df2a032'))
+('$web_vitals', datetime.datetime(2026, 8, 11, 5, 25, 54, 231000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef48-cfb5-7528-9eff-cef6fadd7944'))
+('$autocapture', datetime.datetime(2026, 8, 11, 5, 25, 49, 942000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef48-bef3-79df-943b-8532716f2279'))
+('$pageview', datetime.datetime(2026, 8, 11, 5, 25, 49, 254000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef48-bc34-78bc-a9df-f05f8f2aadf2'))
+('$set', datetime.datetime(2026, 8, 11, 5, 25, 49, 220000), '019fef48-94fa-7607-b5ae-367e4eb7108c', UUID('019fef48-bc21-745a-901a-4bcd58799d3e'))
